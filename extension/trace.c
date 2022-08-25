@@ -1250,6 +1250,8 @@ ZEND_API void pt_execute_core(int internal, zend_execute_data *execute_data, zva
 #endif
 
     /* Check ctrl module */
+    /* fix php program run on daemon status */
+    PTG(pid) = getpid();
     if (CTRL_IS_ACTIVE()) {
         handle_command();
     } else if (PTG(sock_fd) != -1) { /* comm socket still opend */
