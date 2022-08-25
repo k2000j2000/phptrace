@@ -3,8 +3,7 @@
 > We have a new trace tool **[Molten](https://github.com/chuan-yun/Molten)**,
 > It's an OpenTracing supported tracer, for Distributed Tracing System.
 
-> 我们开发了新的Trace工具 **[Molten](https://github.com/chuan-yun/Molten)**，
-> 它支持OpenTracing，用于分布式追踪系统。
+
 
 
 [![Build Status](https://travis-ci.org/Qihoo360/phptrace.svg)](https://travis-ci.org/Qihoo360/phptrace)
